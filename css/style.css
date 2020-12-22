@@ -222,6 +222,12 @@ body {
 }
 
 @media (min-width: 1120px) {
+    body {
+        position: relative;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
     .header {
         display: none;
     }
@@ -279,5 +285,23 @@ body {
 
     .main__content-group-image {
         margin-top: 10px;
+    }
+
+    .main__blue-devider {
+        display: none;
+    }
+
+    .main__title {
+        position: relative;
+    }
+
+    .main__title:before {
+        content: "";
+        position: absolute;
+        left: -32px;
+        border-radius: 2px;
+        width: 3px;
+        height: 40px;
+        background: #41F6D7;
     }
 }
