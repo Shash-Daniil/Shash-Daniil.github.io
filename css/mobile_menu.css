@@ -1,0 +1,140 @@
+@import url(./fonts.css);
+@import url(./normalize.css);
+
+body {
+    background-color: #ffffff;
+    
+}
+
+.wrapper {
+    padding: 0 24px;
+}
+
+.marker__mobile-menu {
+    position: absolute;
+    left: 0px;
+}
+
+.mobile-menu {
+    width: 320px;
+    height: 1024px;
+    box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+}
+
+.bambook__menu-header {
+    padding: 23px 24px;
+}
+
+.bambook__group-email {
+    margin: 16px 0;
+}
+
+.bambook__languages {
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.bombook__menu-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-menu__navigation {
+    margin-top: 28px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list__elem {
+    margin-bottom: 5px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.list__elem:hover {
+    opacity: 0.5;
+    transform: translateX(15px);
+}
+
+.button {
+    transition: transform 0.3s, box-shadow 0.6s;
+}
+
+.button:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 10px red;
+}
+
+.list__link {
+    position: relative;
+    display: block;
+    padding: 14px 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.selected {
+    color: #7E7E82;
+}
+
+.selected:before {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 4px;
+    height: 32px;
+    background: #41F6D7;
+}
+
+
+
+.sm-menu {
+    width: 152px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.sm-menu:after {
+    display: none;
+}
+
+.group-tel {
+    font-size: 24px;
+    font-family: 'TT Lakes Bold';
+}
+
+.languages {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.group-email {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.lang-selected {
+    color: #7E7E82;
+}
+
+.menu-header:after {
+    content: "";
+    background-image: url("../images/group.png");
+    position: absolute;
+    left: 80px;
+    top: 19px;
+    padding: 50px;
+    background-repeat: no-repeat;
+}

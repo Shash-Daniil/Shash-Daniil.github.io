@@ -64,6 +64,18 @@ body {
     background-position: 50% 50%;
 }
 
+.button_icon_close {
+    background-image: url("../images/close.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.button_icon_search {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .button_icon_profile {
     background-image: url("../images/profile.png");
     background-repeat: no-repeat;
@@ -316,11 +328,11 @@ body {
     }
 }
 
-.header__sm-menu {
+.sm-menu {
     display: none;
 }
 @media (min-width: 768px) {
-    .header__sm-menu {
+    .sm-menu {
         position: relative;
         display: flex;
         align-items: center;
@@ -329,7 +341,7 @@ body {
         padding-right: 20px;
     }
 
-    .header__sm-menu:after {
+    .sm-menu:after {
         position: absolute;
         content: "";
         background-color: #EAEAEA;
