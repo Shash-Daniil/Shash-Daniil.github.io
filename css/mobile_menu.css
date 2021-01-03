@@ -131,7 +131,7 @@ body {
 
 .menu-header:after {
     content: "";
-    background-image: url("../images/group.png");
+    background-image: url("../images/Group.png");
     position: absolute;
     left: 80px;
     top: 19px;
