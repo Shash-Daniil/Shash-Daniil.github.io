@@ -5,7 +5,7 @@ const mySwiper = new Swiper('.swiper-container', {
       clickable: true,
     },
     watchOverflow: true,
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 16,
 })
 

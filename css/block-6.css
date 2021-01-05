@@ -7,6 +7,14 @@ body {
     min-width: 320px;
     background-color: #F8F8F8;
 }
+@media (min-width: 1120px) {
+    body {
+        position: relative;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+}
+
 
 .wrapper {
     padding: 16px;
@@ -14,6 +22,11 @@ body {
 @media (min-width: 768px) {
     .wrapper {
         padding: 16px 24px;
+    }
+}
+@media (min-width: 1120px) {
+    .wrapper {
+        padding: 16px 32px;
     }
 }
 
@@ -28,6 +41,10 @@ body {
     background: linear-gradient(90deg,
      #F8F8F8 0%, #FFFFFF 98.61%);
     height: 80px;
+}
+
+.swiper-slide {
+    width: auto;
 }
 
 .swiper-container {
@@ -72,7 +89,7 @@ body {
 }
 @media (min-width: 1120px) {
     .brand {
-        width: 240px;
+        max-width: 240px;
     }
 }
 
@@ -119,6 +136,12 @@ body {
         padding-left: 24px;
     }
 }
+@media (min-width: 1120px) {
+    .sm-content {
+        padding-left: 32px;
+    }
+}
+
 
 .desktop-content {
     display: none;
@@ -148,7 +171,7 @@ body {
         background-repeat: no-repeat;
         padding-left: 25px;
         bottom: -30px;
-        left: 30px;
+        left: 36px;
     }
 }
 
