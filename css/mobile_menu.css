@@ -7,22 +7,24 @@ body {
 }
 
 .wrapper {
-    padding: 0 24px;
+    padding: 23px 24px;
 }
 
 .marker__mobile-menu {
     position: absolute;
     left: 0px;
+    bottom: 0px;
+    top: 0px;
 }
 
 .mobile-menu {
-    width: 320px;
-    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
-}
-
-.bambook__menu-header {
-    padding: 23px 24px;
 }
 
 .bambook__group-email {
@@ -32,11 +34,6 @@ body {
 .bambook__languages {
     margin-top: 40px;
     margin-bottom: 32px;
-}
-
-.bombook__menu-footer {
-    position: absolute;
-    bottom: 0;
 }
 
 .menu-header {
@@ -111,6 +108,8 @@ body {
 }
 
 .group-tel {
+    color:black;
+    text-decoration: none;
     font-size: 24px;
     font-family: 'TT Lakes Bold';
 }
@@ -129,12 +128,13 @@ body {
     color: #7E7E82;
 }
 
-.menu-header:after {
-    content: "";
-    background-image: url("../images/Group.png");
-    position: absolute;
-    left: 80px;
-    top: 19px;
-    padding: 50px;
-    background-repeat: no-repeat;
+.menu-header__wrapper-1 {
+    flex-basis: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 15px;
 }
